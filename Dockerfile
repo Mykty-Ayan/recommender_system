@@ -1,6 +1,6 @@
 FROM python:3.8
 
-COPY ./recommender_app /app
+COPY . /app
 
 WORKDIR /app
 

@@ -7,7 +7,6 @@ import numpy as np
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 
-from schemas import Product
 
 app = FastAPI()
 
